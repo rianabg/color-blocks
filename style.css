@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: lightgray;
+    flex-basis: 49%;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box > div:first-child {
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box > div:nth-child(2) {
+    width: 100%;
+    height: 150px;
+    }
+
+.box > div > div {
+    width: 50%;
+    height: 50%;
+}
+
+/* shining */
+
+body > div:nth-child(1) > div:nth-child(1) >div:nth-child(1) {
+    background-color: darkred;
+}
+
+body > div:nth-child(1) > div:nth-child(1) >div:nth-child(2) {
+    background-color: red;
+}
+
+body > div:nth-child(1) > div:nth-child(1) >div:nth-child(3) {
+    background-color: brown;
+}
+
+body > div:nth-child(1) > div:nth-child(1) >div:nth-child(4) {
+    background-color: darkorange;
+}
+
+/* bobs burgers */
+
+body > div:nth-child(2) > div:nth-child(1) >div:nth-child(1) {
+    background-color: limegreen;
+}
+
+body > div:nth-child(2) > div:nth-child(1) >div:nth-child(2) {
+    background-color: yellow;
+}
+
+body > div:nth-child(2) > div:nth-child(1) >div:nth-child(3) {
+    background-color: lightpink;
+}
+
+body > div:nth-child(2) > div:nth-child(1) >div:nth-child(4) {
+    background-color: lightskyblue;
+}
+
+/* breaking bad */
+
+body > div:nth-child(3) > div:nth-child(1) >div:nth-child(1) {
+    background-color: darkgray;
+}
+
+body > div:nth-child(3) > div:nth-child(1) >div:nth-child(2) {
+    background-color: green;
+}
+
+body > div:nth-child(3) > div:nth-child(1) >div:nth-child(3) {
+    background-color: darkolivegreen;
+}
+
+body > div:nth-child(3) > div:nth-child(1) >div:nth-child(4) {
+    background-color: slategray;
+}
+
+/* parks and rec */
+
+body > div:nth-child(4) > div:nth-child(1) >div:nth-child(1) {
+    background-color:skyblue;
+}
+
+body > div:nth-child(4) > div:nth-child(1) >div:nth-child(2) {
+    background-color: lightgreen;
+}
+
+body > div:nth-child(4) > div:nth-child(1) >div:nth-child(3) {
+    background-color:lightcoral;
+}
+
+body > div:nth-child(4) > div:nth-child(1) >div:nth-child(4) {
+    background-color: gray;
+}
+
